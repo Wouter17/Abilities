@@ -1,0 +1,644 @@
+AatroxE: Umbral Dash
+AatroxQ: The Darkin Blade
+AatroxR: World Ender
+AatroxW: Infernal Chains
+AhriE: Charm
+AhriQ: Orb of Deception
+AhriR: Spirit Rush
+AhriW: Fox-Fire
+AkaliE: Shuriken Flip
+AkaliQ: Five Point Strike
+AkaliR: Perfect Execution
+AkaliW: Twilight Shroud
+AkshanE: Heroic Swing
+AkshanQ: Avengerang
+AkshanR: Comeuppance
+AkshanW: Going Rogue
+AlistarE: Trample
+AlistarQ: Pulverize
+AlistarR: Unbreakable Will
+AlistarW: Headbutt
+AmumuE: Tantrum
+AmumuQ: Bandage Toss
+AmumuR: Curse of the Sad Mummy
+AmumuW: Despair
+AniviaE: Frostbite
+AniviaQ: Flash Frost
+AniviaR: Glacial Storm
+AniviaW: Crystallize
+AnnieE: Molten Shield
+AnnieQ: Disintegrate
+AnnieR: Summon; Tibbers
+AnnieW: Incinerate
+ApheliosE: Calibrum, the Sniper Rifle
+ApheliosQ: Weapon Abilities
+ApheliosR: Moonlight Vigil
+ApheliosW: Phase
+AsheE: Hawkshot
+AsheQ: Ranger’s Focus
+AsheR: Enchanted Chrystal Arrow
+AsheW: Volley
+AurelionSolE: Comet of Legend
+AurelionSolQ: Starsurge
+AurelionSolR: Voice of Light
+AurelionSolW: Celestial Expansion
+AzirE: Shifting Sands
+AzirQ: Conquering Sands
+AzirR: Emperor’s divide
+AzirW: Arise!
+BardE: Magical Journey
+BardQ: Cosmic Binding
+BardR: Tempered Fate
+BardW: Caretaker’s Shrine
+BelvethE: Royak Maelstrom
+BelvethQ: Void Surge
+BelvethR: Endless Banquet
+BelvethW: Above and Below
+BlitzcrankE: Power Fist
+BlitzcrankQ: Rocket Grab
+BlitzcrankR: Static Field
+BlitzcrankW: Overdrive
+BrandE: Conflagration
+BrandQ: Sear
+BrandR: Pyroclasm
+BrandW: Pillar of Flame
+BraumE: Unbreakable
+BraumQ: Winter’s Bite
+BraumR: Glacial Fissure
+BraumW: Stand Behind Me
+CaitlynE: 90 Caliber Net
+CaitlynQ: Piltover Peacemaker
+CaitlynR: Ace in the Hole
+CaitlynW: Yordle Snap Trap
+CamilleE: Hookshot
+CamilleQ: Precision Protocol
+CamilleR: The Hextech Ultimatum
+CamilleW: Tactical Sweep
+CassiopeiaE: Twin Fang
+CassiopeiaQ: Noxious Blast
+CassiopeiaR: Petrifying Gaze
+CassiopeiaW: Miasma
+ChogathE: Vorpal Spikes
+ChogathQ: Rupture
+ChogathR: Feast
+ChogathW: Feral Scream
+CorkiE: Gatling Gun
+CorkiQ: Phosphorus Bomb
+CorkiR: Missile Barrage
+CorkiW: Valkyrie
+DariusE: Apprehend
+DariusQ: Decimate
+DariusR: Noxian Guillotine
+DariusW: Crippling Strike
+DianaE: Lunar Rush
+DianaQ: Crescent Strike
+DianaR: Moonfall
+DianaW: Pale cascade
+DravenE: Stand Aside
+DravenQ: Spinning Axe
+DravenR: Whirling Death
+DravenW: Blood Rush
+DrMundoE: Blunt Force Trauma
+DrMundoQ: Infected Bonesaw
+DrMundoR: Maximum Dosage
+DrMundoW: Heart Zapper
+EkkoE: Phase Dive
+EkkoQ: Timewinder
+EkkoR: Chronobreak
+EkkoW: Parallel Convergence
+EliseE: Cocoon
+EliseQ: Neurotoxin 
+EliseR: Spider Form
+EliseW: Volatile Spiderling
+EvelynnE: Whiplash
+EvelynnQ: Hate Spike
+EvelynnR: Last Caress
+EvelynnW: Allure
+EzrealE: Arcane Shift
+EzrealQ: Mystic Shot
+EzrealR: Trueshot Barrage
+EzrealW: Essence Flux
+FiddleSticksE: Reap
+FiddleSticksQ: Terrify
+FiddleSticksR: Crowstorm
+FiddleSticksW: Bountiful Harvest
+FioraE: Bladework
+FioraQ: Lunge
+FioraR: Grand Challenge
+FioraW: Riposte
+FizzE: Playful
+FizzQ: Urchin Strike
+FizzR: Cum the Water
+FizzW: Seastone Trident
+GalioE: Justice Punch
+GalioQ: Winds of War
+GalioR: Hero’s Entrance
+GalioW: Shield of Durand
+GangplankE: Powder Keg
+GangplankQ: Parrrley
+GangplankR: Cannon Barrage
+GangplankW: Remove Survy
+GarenE: Judgement
+GarenQ: Decisive Strike
+GarenR: Demacian Justice
+GarenW: Courage
+GnarE: Hop
+GnarQ: Boomerang Throw
+GnarR: Gnar!
+GnarW: Hyper
+GragasE: Body Slam
+GragasQ: Barrel Roll
+GragasR: Explosive Cask
+GragasW: Drunken Rage
+GravesE: Quickdraw
+GravesQ: End of the Line
+GravesR: Collateral Damage
+GravesW: Smoke Screen
+GwenE: Skip ‘n Slash
+GwenQ: Snip Snip!
+GwenR: Needlework
+GwenW: Hallowed Mist
+HecarimE: Devastating Charge
+HecarimQ: Rampage
+HecarimR: Onslaught of Shadows
+HecarimW: Spirit of the Dead
+HeimerdingerE: CH-2 Electron Storm Grenade
+HeimerdingerQ: H-28 G Evolution Turret
+HeimerdingerR: UPGRADE!!!
+HeimerdingerW: Hextech Micro-Rockets
+IllaoiE: Test of Spirit
+IllaoiQ: Tentacle Smash
+IllaoiR: Leap of Faith
+IllaoiW: Harsh Lesson
+IreliaE: Flawless Duet
+IreliaQ: Bladesurge
+IreliaR: Vanguard’s Edge
+IreliaW: Defiant Dance
+IvernE: Triggerseed
+IvernQ: Rootcaller
+IvernR: Daisy!
+IvernW: Brushmaker
+JannaE: Eye Of The Storm
+JannaQ: Howling Gale
+JannaR: Monsoon
+JannaW: Zephyr
+JarvanivE: Demacian Standard
+JarvanivQ: Dragon Strike
+JarvanivR: Cataclysm
+JarvanivW: Golden Aegis
+JaxE: Counter Strike
+JaxQ: Leap Strike
+JaxR: Grandmaster’s Might
+JaxW: Empower
+JayceE: Thundering Blow
+JayceQ: To The Skies!
+JayceR: Mercury Cannon
+JayceW: Lightning Field
+JhinE: Captive Audience
+JhinQ: Dancing Grenade
+JhinR: Curtain Call
+JhinW: Deadly Flourish
+JinxE: Flame Chompers!
+JinxQ: Switcheroo!
+JinxR: Super Mega Death Rocket!
+JinxW: Zap!
+KaisaE: Supercharge
+KaisaQ: Icathian Rain
+KaisaR: Killer Instinct
+KaisaW: Void Seeker
+KalistaE: Rend
+KalistaQ: Pierce
+KalistaR: Fate’s Call
+KalistaW: Sentinel
+KarmaE: Inspire
+KarmaQ: Inner Flame
+KarmaR: Mantra
+KarmaW: Focused Resolve
+KarthusE: Defile
+KarthusQ: Lay Waste
+KarthusR: Requiem
+KarthusW: Wall of Pain
+KassadinE: Force Pulse
+KassadinQ: Null Sphere
+KassadinR: Riftwalk
+KassadinW: Nether Blade
+KatarinaE: Shunpo
+KatarinaQ: Bouncing Blade
+KatarinaR: Death Lotus
+KatarinaW: Preparation
+KayleE: Starfire Spellblade
+KayleQ: Radiant Blast
+KayleR: Divine Judgement
+KayleW: Celestial Blessing
+KaynE: Shadow Step
+KaynQ: Reaping Slash
+KaynR: Umbral Trespass
+KaynW: Blade’s Reach
+KennenE: Lightning Rush
+KennenQ: Thundering Shuriken
+KennenR: Slicing Maelstrom
+KennenW: Electrical Surge
+KhazixE: Leap
+KhazixQ: Taste Their Fear
+KhazixR: Void Assault
+KhazixW: Void Spike
+KindredE: Mounting Dread
+KindredQ: Dance of Arrows
+KindredR: Lamb’s Respite
+KindredW: Wolf’s Frenzy
+KledE: Jousting
+KledQ: Bear Trap on a Rope
+KledR: Chaaaaaaaarge!!!
+KledW: Violent Tendencies
+KogMawE: Void Ooze
+KogMawQ: Caustic Spittle
+KogMawR: Living Artillery
+KogMawW: Bio-Arcane Barrage
+LeblancE: Ethereal Chains
+LeblancQ: Sigil of Malice
+LeblancR: Mimic
+LeblancW: Distortion
+LeesinE: Tempest
+LeesinQ: Sonic Wave
+LeesinR: Dragon’s Rage
+LeesinW: Safeguard
+LeonaE: Zenith Blade
+LeonaQ: Shield of Daybreak
+LeonaR: Solar Flare
+LeonaW: Eclipse
+LilliaE: Swirlseed
+LilliaQ: Blooming Blows
+LilliaR: Lilting Lullaby
+LilliaW: Watch Out! Eep!
+LissandraE: Glacial Path
+LissandraQ: Ice Shard
+LissandraR: Frozen Tomb
+LissandraW: Ring of Frost
+LucianE: Relentless Pursuit
+LucianQ: Piercing Light
+LucianR: The Culling
+LucianW: Ardent Blaze
+LuluE: Help, pix!
+LuluQ: Glitterlance
+LuluR: Wild Growth
+LuluW: Whimsy
+LuxE: Lucent Singularity
+LuxQ: Light Binding
+LuxR: Final Spark
+LuxW: Prismatic Barrier
+MalphiteE: Ground Slam
+MalphiteQ: Seismic Shard
+MalphiteR: Unstoppable Force
+MalphiteW: Thunderclap
+MalzaharE: Malefic Visions
+MalzaharQ: Call of the Void
+MalzaharR: Nether Grasp
+MalzaharW: Void Swarm
+MaokaiE: Sapling Toss
+MaokaiQ: Bramble Smash
+MaokaiR: Nature’s Grasp
+MaokaiW: Twisted Advance
+MasteryiE: Wuju Style
+MasteryiQ: Alpha Strike
+MasteryiR: Highlander
+MasteryiW: Meditate
+MissfortuneE: Make it Rain
+MissfortuneQ: Double Up
+MissfortuneR: Bullet Time
+MissfortuneW: Strut
+MordekaiserE: Death’s Grasp
+MordekaiserQ: Obliterate
+MordekaiserR: Real of Death
+MordekaiserW: Indestructible
+MorganaE: Black Shield
+MorganaQ: Dark Binding
+MorganaR: Soul Shackles
+MorganaW: Tormented Shadow
+NamiE: Tidecaller’s Blessing
+NamiQ: Aqua Prison
+NamiR: Tidal Wave
+NamiW: Ebb and Flow 
+NasusE: Spirit Fire
+NasusQ: Siphoning Strike
+NasusR: Fury of the Sands
+NasusW: Wither
+NautilusE: Riptide
+NautilusQ: Dredge Line
+NautilusR: Depth Charge
+NautilusW: Titan’s Wrath
+NeekoE: Tangle-Barbs
+NeekoQ: Blooming Burst
+NeekoR: Pop Blossom
+NeekoW: Shapesplitter
+NidaleeE: Primal Surge
+NidaleeQ: Javelin Toss
+NidaleeR: Aspect Of The Cougar
+NidaleeW: Bushwhack
+NilahE: Slipstream
+NilahQ: Formless Blade
+NilahR: Apotheosis
+NilahW: Jubilant Veil
+NocturneE: Unspeakable Horror
+NocturneQ: Duskbringer
+NocturneR: Paranoia
+NocturneW: Shroud of Darkness
+NunuE: Snowball Barrage
+NunuQ: Consume
+NunuR: Absolute Zero
+NunuW: Biggest Snowball Ever!
+OlafE: Reckless Swing
+OlafQ: Undertow
+OlafR: Ragnarok
+OlafW: Tough It Out
+OriannaE: Command; Protect
+OriannaQ: Command; Attack
+OriannaR: Command; Shockwave
+OriannaW: Command; Dissonance
+OrnnE: Searing Charge
+OrnnQ: Volcanic Rupture
+OrnnR: Call of the Forge God
+OrnnW: Bellows Breath
+PantheonE: Aegis Assault
+PantheonQ: Comet Spear
+PantheonR: Grand Starfall
+PantheonW: Shield Vault
+PoppyE: Heroic Charge
+PoppyQ: Hammer Shock
+PoppyR: Keeper’s Verdict
+PoppyW: Steadfast Presence
+PykeE: Phantom Undertow
+PykeQ: Bone Skewer
+PykeR: Death From Below
+PykeW: Ghostwater Dive
+QiyanaE: Audacity
+QiyanaQ: Elemental Wrath
+QiyanaR: Supreme Display of Talent
+QiyanaW: Terrashape
+QuinnE: Vault
+QuinnQ: Blinding Assault
+QuinnR: Behind Enemy Lines
+QuinnW: Heightened Senses
+RakanE: Battle Dance
+RakanQ: Gleaming Quill
+RakanR: The Quickness
+RakanW: Grand Entrance
+RammusE: Frenzying Taunt
+RammusQ: Powerball
+RammusR: Soaring Slam
+RammusW: Defensive Ball Curl
+RekSaiE: Furious Bite
+RekSaiQ: Queen’s Wrath
+RekSaiR: Void Rush
+RekSaiW: Burrow
+RellE: Attract and Repel
+RellQ: Shattering Strike
+RellR: Magnet Storm
+RellW: Ferromancy; Crash Down
+RenataE: Loyalty Program
+RenataQ: Handshake
+RenataR: Hostile Takeover
+RenataW: Bailout
+RenektonE: Slice and Dice
+RenektonQ: Cull the Meek
+RenektonR: Dominus
+RenektonW: Ruthless Predator
+RengarE: Bola Strike
+RengarQ: Savagery
+RengarR: Thrill of the Hunt
+RengarW: Battle Roar
+RivenE: Valor
+RivenQ: Broken Wings
+RivenR: Blade of the Exile
+RivenW: Ki Burst
+RumbleE: Electro Harpoon
+RumbleQ: Flamespitter
+RumbleR: The Equalizer
+RumbleW: Scrap Shield
+RyzeE: Spell Flux
+RyzeQ: Overload
+RyzeR: Realm Warp
+RyzeW: Rune Prison
+SamiraE: Wild Rush
+SamiraQ: Flair
+SamiraR: Inferno Trigger
+SamiraW: Blade Whirl
+SejuaniE: Permafrost
+SejuaniQ: Arctic Assault
+SejuaniR: Glacial Prison
+SejuaniW: Winter’s Wrath
+SennaE: Curse of the Black Mist
+SennaQ: Piercing Darkness
+SennaR: Dawning Shadow
+SennaW: Last Embrace
+SeraphineE: Beat Drop
+SeraphineQ: High Note
+SeraphineR: Encore
+SeraphineW: Surround Sound
+SettE: Facebreaker
+SettQ: Knuckle Down
+SettR: The Show Stopper
+SettW: Haymaker
+ShacoE: Two-Shiv Poison
+ShacoQ: Deceive
+ShacoR: Hallucinate
+ShacoW: Jack In The Box
+ShenE: Shadow Dash
+ShenQ: Twilight Assault
+ShenR: Stand United
+ShenW: Spirit’s Refuge
+ShyvanaE: Flame Breath
+ShyvanaQ: Twin Bite
+ShyvanaR: Dragon’s Descent
+ShyvanaW: Burnout
+SingedE: Fling
+SingedQ: Poison Trail
+SingedR: Insanity Potion
+SingedW: Mega Adhesive
+SionE: Roar of the Slayer
+SionQ: Decimating Smash
+SionR: Unstoppable Onslaught
+SionW: Soul Furnace
+SivirE: Spell Shield
+SivirQ: Boomerang Blade
+SivirR: On The Hunt
+SivirW: Ricochet
+SkarnerE: Fracture
+SkarnerQ: Crystal Slash
+SkarnerR: Impale
+SkarnerW: Crystalline Exoskeleton
+SonaE: Song of Celerity
+SonaQ: Hymn of Valor
+SonaR: Crescendo
+SonaW: Aria of Perseverance
+SorakaE: Equinox
+SorakaQ: Starcall
+SorakaR: Wish
+SorakaW: Astral Infusion
+SwainE: Nevermore
+SwainQ: Death’s Hand
+SwainR: Demonic Ascension
+SwainW: Vision of Empire
+SylasE: Abscond
+SylasQ: Chain Lash
+SylasR: Hijack
+SylasW: Kingslayer
+SyndraE: Scatter the Weak
+SyndraQ: Dark Sphere
+SyndraR: Unleashed Power
+SyndraW: Fore of Will
+TahmKenchE: Thick Skin
+TahmKenchQ: Tongue Lash
+TahmKenchR: Devour
+TahmKenchW: Abyssal Dive
+TaliyahE: Unraveled Earth
+TaliyahQ: Threaded Volley
+TaliyahR: Weaver’s Wall
+TaliyahW: Seismic Shove
+TalonE: Assassin’s Path
+TalonQ: Noxian Diplomacy
+TalonR: Shadow Assault
+TalonW: Rake
+TaricE: Dazzle
+TaricQ: Starlight’s Touch
+TaricR: Cosmic Radiance
+TaricW: Bastion
+TeemoE: Toxic Shot
+TeemoQ: Blinding Dart
+TeemoR: Noxious Trap
+TeemoW: Move Quick
+ThreshE: Flay
+ThreshQ: Death Sentence
+ThreshR: The Box
+ThreshW: Dark Passage
+TristanaE: Explosive Charge
+TristanaQ: Rapid Fire
+TristanaR: Buster Shot
+TristanaW: Rocket Jump
+TrundleE: Pillar of Ice
+TrundleQ: Chomp
+TrundleR: Subjugate
+TrundleW: Frozen Domain
+TryndamereE: Spinning Slash
+TryndamereQ: Bloodlust
+TryndamereR: Undying Rage
+TryndamereW: Mocking Shout
+TwistedfateE: Stacked Deck
+TwistedfateQ: Wild Cards
+TwistedfateR: Destiny
+TwistedfateW: Pick A Card
+TwitchE: Contaminate
+TwitchQ: Ambush
+TwitchR: Spray and Pray
+TwitchW: Venom Cask
+UdyrE: Bear Stance
+UdyrQ: Tiger Stance
+UdyrR: Phoenix Stance
+UdyrW: Turtle Stance
+UrgotE: Disdain
+UrgotQ: Corrosive Charge
+UrgotR: Fear Beyond Death
+UrgotW: Purge
+VarusE: Hail of Arrows
+VarusQ: Piercing Arrow
+VarusR: Chain of Corruption
+VarusW: Blighted Quiver
+VayneE: Condemn
+VayneQ: Tumble
+VayneR: Final Hour
+VayneW: Silver Bolts
+VeigarE: Event Horizon
+VeigarQ: Baleful Strike
+VeigarR: Primordial Burst
+VeigarW: Dark Matter
+VelkozE: Tectonic Disruption
+VelkozQ: Plasma Fission
+VelkozR: Life Form Disintegration Ray
+VelkozW: Void Rift
+VexE: Looming Darkness
+VexQ: Mistral Bolt
+VexR: Shadow Surge
+VexW: Personal Space
+ViE: Relentless Force
+ViegoE: Harrowed Path
+ViegoQ: Blade of the Ruined King
+ViegoR: Heartbreaker
+ViegoW: Spectral Maw
+ViktorE: Death Ray
+ViktorQ: Siphon Power
+ViktorR: Chaos Storm
+ViktorW: Gravity Field
+ViQ: Vault Breaker
+ViR: Cease and Desist
+ViW: Denting Blows
+VladimirE: Tides of Blood
+VladimirQ: Transfusion
+VladimirR: Hemoplague
+VladimirW: Sanguine Pool
+VolibearE: Sky Splitter
+VolibearQ: Thundering Smash
+VolibearR: Stormbringer
+VolibearW: Frenzied Maul
+WarwickE: Primal Howl
+WarwickQ: Jaws of the Beast
+WarwickR: Infinite Duress
+WarwickW: Blood Hunt
+WukongE: Nimbus Strike
+WukongQ: Crushing Blow
+WukongR: Cyclone
+WukongW: Warrior Trickster
+XayahE: Bladecaller
+XayahQ: Double Daggers
+XayahR: Featherstorm
+XayahW: Deadly Plumage
+XerathE: Shocking Orb
+XerathQ: Arcanopulse
+XerathR: Rite of the Arcane
+XerathW: Eye of Destruction
+XinZhaoE: Audacious Charge
+XinZhaoQ: Three Talon Strike
+XinZhaoR: Crescent Guard
+XinZhaoW: Wind Becomes Lightning
+YasuoE: Sweeping Blade
+YasuoQ: Steel Tempest
+YasuoR: Last Breath
+YasuoW: Wind Wall
+YoneE: Soul Unbound
+YoneQ: Mortal Steel
+YoneR: Fate Sealed
+YoneW: Spirit Cleave
+YorickE: Mourning Mist
+YorickQ: Last Rites
+YorickR: Eulogy of the Isles
+YorickW: Dark Procession
+YuumiE: Zoomies
+YuumiQ: Prowling Projectile
+YuumiR: Final Chapter
+YuumiW: You and Me!
+ZacE: Elastic Slingshot
+ZacQ: Stretching Strikes
+ZacR: Let’s Bounce!
+ZacW: Unstable Matter
+ZedE: Shadow Slash
+ZedQ: Razor Shuriken
+ZedR: Death Mark
+ZedW: Living Shadow
+ZeriE: Spark Surge
+ZeriQ: Burst Fire
+ZeriR: Lightning Crash
+ZeriW: Ultrashock Laser
+ZiggsE: Hexplosive Minefield
+ZiggsQ: Bouncing Bomb
+ZiggsR: Mega Inferno Bomb
+ZiggsW: Satchel Charge
+ZileanE: Time Warp
+ZileanQ: Time Bomb
+ZileanR: Chronoshift
+ZileanW: Rewind
+ZoeE: Sleepy Trouble Bubble
+ZoeQ: Paddle Star!
+ZoeR: Portal Jump
+ZoeW: Spell Thief
+ZyraE: Grasping Roots
+ZyraQ: Deadly Spines
+ZyraR: Stranglethorns
+ZyraW: Rampant Growth
