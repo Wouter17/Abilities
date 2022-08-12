@@ -38,6 +38,9 @@ Gen
 .idea
 ./ImageFetcher/.idea
 
+# Logs
+./ImageFetcher/failed.txt
+
 # Large image folder
 /ImageFetcher/abilities/**
 /ImageFetcher/abilities_correct/**

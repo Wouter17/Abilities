@@ -2,8 +2,12 @@ import fs from "fs";
 import * as download from "image-downloader";
 
 const header = 'https://ddragon.leagueoflegends.com/cdn/12.15.1/img/spell/';
+const saveDir = './abilities';
 
 const stream = fs.createWriteStream('failed.txt', {flags: 'a'})
+
+if (!fs.existsSync(saveDir))
+    fs.mkdirSync(saveDir);
 
 fs.writeFileSync('./failed.txt', '', null);
 const championNamesFile = fs.readFileSync('./champions.txt', {encoding:'utf8', flag:'r'});
