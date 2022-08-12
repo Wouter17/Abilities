@@ -128,7 +128,7 @@ FioraR: Grand Challenge
 FioraW: Riposte
 FizzE: Playful
 FizzQ: Urchin Strike
-FizzR: Cum the Water
+FizzR: Chum the Waters
 FizzW: Seastone Trident
 GalioE: Justice Punch
 GalioQ: Winds of War
