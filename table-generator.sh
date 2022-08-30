@@ -1,5 +1,5 @@
 location=./Manual/HTML/img/Abilities
-declare -i entriesPerPage=13
+declare -i entriesPerPage=11
 declare -i page=2
 declare -i counter=0
 
