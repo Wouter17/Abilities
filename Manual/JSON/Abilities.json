@@ -1,0 +1,16 @@
+{
+  "Author": "Wouter17",
+  "Compatibility": "Compatible",
+  "DefuserDifficulty": "Medium",
+  "Description": "Identify a correct ability name based on a displayed image",
+  "ExpertDifficulty": "Medium",
+  "ModuleID": "abilities",
+  "Name": "Abilities",
+  "Origin": "Mods",
+  "Published": "2022-08-22", //still has to be set
+  "SortKey": "ABILITIES",
+  "SourceUrl": "https://github.com/Wouter17/Abilities",
+  "SteamID": null,
+  "Symbol": "Abi",
+  "Type": "Regular"
+}
