@@ -1,7 +1,7 @@
 import fs from "fs";
 import * as download from "image-downloader";
 
-const header = 'https://ddragon.leagueoflegends.com/cdn/12.15.1/img/spell/';
+const header = 'https://ddragon.leagueoflegends.com/cdn/12.16.1/img/spell/';
 const saveDir = './abilities';
 
 const stream = fs.createWriteStream('failed.txt', {flags: 'a'})

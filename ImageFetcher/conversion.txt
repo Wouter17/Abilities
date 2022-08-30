@@ -530,10 +530,10 @@ TwitchE: Contaminate
 TwitchQ: Ambush
 TwitchR: Spray and Pray
 TwitchW: Venom Cask
-UdyrE: Bear Stance
-UdyrQ: Tiger Stance
-UdyrR: Phoenix Stance
-UdyrW: Turtle Stance
+UdyrE: Blazing Stampede
+UdyrQ: Wilding Claw
+UdyrR: Wingborne Storm
+UdyrW: Iron Mantle
 UrgotE: Disdain
 UrgotQ: Corrosive Charge
 UrgotR: Fear Beyond Death

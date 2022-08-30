@@ -163,7 +163,3 @@ MonkeyKingNimbus, Wukong E
 MonkeyKingSpinToWin, Wukong R
 YasuoQ1Wrapper, Yasuo Q
 RyzeQWrapper, Ryze Q
-UdyrTigerStance, Udyr Q
-UdyrTurtleStance, Udyr W
-UdyrBearStance, Udyr E
-UdyrPhoenixStance, Udyr R
