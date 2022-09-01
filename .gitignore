@@ -37,6 +37,7 @@ Gen
 # Code editor setting
 .idea
 ./ImageFetcher/.idea
+**/JetBrains
 
 # Logs
 ./ImageFetcher/failed.txt

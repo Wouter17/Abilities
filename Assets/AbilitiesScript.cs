@@ -1,6 +1,6 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
@@ -158,4 +158,134 @@ public class AbilitiesScript : MonoBehaviour {
 	{
 		Debug.Log(string.Format("[Abilities #{0}] " + log, moduleId));
 	}
+	
+	#region Twitch Plays
+	
+	#pragma warning disable 414
+	private readonly string TwitchHelpMessage = @"!{0} select <answer> [Selects the specified answer] | !{0} left/right <amount (optional)> [Presses the left or right arrow the amount specified]| !{0} submit/enter [Submits the current input] | !{0} submit/enter <answer> [Submits the specified answer]";
+	#pragma warning restore 414
+
+	/// <summary>
+	/// Handles commands sent in via Twitch
+	/// </summary>
+	private IEnumerator ProcessTwitchCommand(string command)
+	{
+		string[] parameters = command.Split(' ');
+		
+		if (Regex.IsMatch(parameters[0], @"^\s*(left|right)\s*$",
+			    RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+		{
+			yield return null;
+			int temp;
+			if (parameters.Length == 1)
+			{
+				if (parameters[0].ToLowerInvariant() == "left")
+				{
+					leftButton.OnInteract();
+				}
+				else
+				{
+					rightButton.OnInteract();
+				}
+				yield break;
+			}
+			
+			if (parameters.Length > 2) yield return "sendtochaterror Too many parameters!";
+
+			else if (!int.TryParse(parameters[1], out temp))
+			{
+				yield return "sendtochaterror!f The specified number of times to press '" + parameters[1] + "' is invalid!";
+				yield break;
+			}
+
+			else if (temp < 1)
+			{
+				yield return "sendtochaterror The specified number of times to press '" + parameters[1] + "' is less than 1!";
+				yield break;
+			}
+
+			else if (parameters[0].ToLowerInvariant() == "left")
+			{
+				for (int i = 0; i < temp; i++)
+				{
+					leftButton.OnInteract();
+					yield return new WaitForSeconds(0.1f);
+				}
+			}
+			else
+			{
+				for (int i = 0; i < temp; i++)
+				{
+					rightButton.OnInteract();
+					yield return new WaitForSeconds(0.1f);
+				}
+			}
+			
+		}
+			
+			
+		if (Regex.IsMatch(parameters[0], @"^\s*select\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+		{
+			yield return null;
+
+			var nameInput = Regex.Match(command, @"(?<=\w+\W).+(?=\b)").Value.ToLowerInvariant();
+			
+			if (parameters.Length == 1) yield return "sendtochaterror Please specify an answer to select!";
+			
+			else
+			{
+				if (!_abilityNames.Select(x => x.ToLowerInvariant()).ToList().Contains(nameInput))
+				{
+					yield return "sendtochaterror!f The specified answer '" + nameInput + "' is not available!";
+					yield break;
+				}
+
+				var answerIndex = _abilityNames.Select(x => x.ToLowerInvariant()).ToList()
+					.IndexOf(nameInput);
+				while (answerIndex != _currentSelectedIndex)
+				{
+					rightButton.OnInteract();
+					yield return new WaitForSeconds(0.1f);
+				}
+			}
+		}
+		
+		if (Regex.IsMatch(parameters[0], @"^\s*(submit|enter)\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+		{
+			yield return null;
+
+			var nameInput = Regex.Match(command, @"(?<=\w+\W).+(?=\b)").Value.ToLowerInvariant();
+
+			if (parameters.Length == 1)
+			{
+				centreButton.OnInteract();
+				yield break;
+			}
+
+			if (!_abilityNames.Select(x => x.ToLowerInvariant()).ToList().Contains(nameInput))
+			{
+				yield return "sendtochaterror!f The specified answer '" + nameInput + "' is not available!";
+				yield break;
+			}
+
+			var answerIndex = _abilityNames.Select(x => x.ToLowerInvariant()).ToList()
+				.IndexOf(nameInput);
+			while (answerIndex != _currentSelectedIndex)
+			{
+				rightButton.OnInteract();
+				yield return new WaitForSeconds(0.1f);
+			}
+
+			centreButton.OnInteract();
+		}
+	}
+	
+	/// <summary>
+	/// Handles autosolving the module
+	/// </summary>a
+	IEnumerator TwitchHandleForcedSolve()
+	{
+		yield return ProcessTwitchCommand("submit " + _abilityNames[0]);
+	}
+	#endregion
 }
