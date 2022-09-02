@@ -8,7 +8,7 @@ do
 	echo "<tr>"
 	echo "    <td><img class='ability-icon' src='./img/Abilities/$(basename "$entry")'/></td>"
 	v=$(basename "$entry")
-	echo "    <td>${v%.*}</td>"
+	echo "    <td>${v%.*}</td>" | tr ";" ":"
 	echo "</tr>"
 	if [ "$counter" -ge "$entriesPerPage" ];
 	then
