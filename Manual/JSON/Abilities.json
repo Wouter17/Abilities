@@ -7,10 +7,10 @@
   "ModuleID": "abilities",
   "Name": "Abilities",
   "Origin": "Mods",
-  "Published": "2022-08-22", //still has to be set
+  "Published": "2022-09-02",
   "SortKey": "ABILITIES",
   "SourceUrl": "https://github.com/Wouter17/Abilities",
-  "SteamID": null,
+  "SteamID": "2857619279",
   "Symbol": "Abi",
   "Type": "Regular"
 }

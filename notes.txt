@@ -1,5 +1,5 @@
 About:
-Try your hand at guessing the correct ability name based on picture of an ability in League of Legends.
+Try your hand at guessing the correct ability name based on picture of an ability from League of Legends.
 
 Manual:
 https://wouter17.github.io/Abilities/Manual/HTML/Abilities.html

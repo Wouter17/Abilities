@@ -14,8 +14,14 @@ MonoBehaviour:
   id: abilities
   title: Abilities
   author: Wouter17
-  description: Try your hand at guessing the correct ability name based on picture
-    of an ability in League of Legends.
+  description: "About:\r\nTry your hand at guessing the correct ability name based
+    on picture of an ability from League of Legends.\r\n\r\nManual:\r\nhttps://wouter17.github.io/Abilities/Manual/HTML/Abilities.html\r\n\r\nNotes:\r\nAt
+    first the module may seem daunting with the amount of abilities. However, after
+    a few playthroughs you'll start to get a feel for what kind of name fits with
+    each ability and you may be able to solo this.\r\n\r\nSource Code:\r\nhttps://github.com/Wouter17/Ablities\r\n\r\nLegal
+    disclaimer:\r\nAbilities was created under Riot Games' \"Legal Jibber Jabber\"
+    policy using assets owned by Riot Games.  \r\nRiot Games does not endorse or sponsor
+    this project."
   version: 1.0
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 206153ffbfa7d3644a965f313f73cead, type: 3}
