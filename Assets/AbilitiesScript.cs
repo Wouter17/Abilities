@@ -247,7 +247,7 @@ public class AbilitiesScript : MonoBehaviour
         {
             yield return null;
 
-            var nameInput = Regex.Match(command, @"(?<=\w+\W).+(?=\b)").Value.ToLowerInvariant();
+            var nameInput = Regex.Match(command, @"(?<=\w+\W).+(?=\b)").Value.ToLowerInvariant().Replace('/','∕');
 
             if (parameters.Length == 1) yield return "sendtochaterror Please specify an answer to select!";
 
@@ -274,7 +274,7 @@ public class AbilitiesScript : MonoBehaviour
         {
             yield return null;
 
-            var nameInput = Regex.Match(command, @"(?<=\w+\W).+(?=\b)").Value.ToLowerInvariant();
+            var nameInput = Regex.Match(command, @"(?<=\w+\W).+(?=\b)").Value.ToLowerInvariant().Replace('/','∕');
 
             if (parameters.Length == 1)
             {
