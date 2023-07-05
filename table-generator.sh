@@ -6,7 +6,7 @@ declare -i counter=0
 for entry in "$location"/*;
 do
 	echo "<tr>"
-	echo "    <td><img class='ability-icon' src='./img/Abilities/$(basename "$entry")'/></td>"
+	echo "    <td><img class='ability-icon' src=\"./img/Abilities/$(basename "$entry")\"/></td>"
 	v=$(basename "$entry")
 	echo "    <td>${v%.*}</td>" | tr ";" ":"
 	echo "</tr>"
