@@ -22,6 +22,6 @@ MonoBehaviour:
     disclaimer:\r\nAbilities was created under Riot Games' \"Legal Jibber Jabber\"
     policy using assets owned by Riot Games.  \r\nRiot Games does not endorse or sponsor
     this project."
-  version: 1.0
+  version: 2.0
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 206153ffbfa7d3644a965f313f73cead, type: 3}
