@@ -12,7 +12,7 @@
 
 let protocol = location.protocol;
 let e = document.createElement("script");
-e.src = "../HTML/js/jquery.3.1.1.min.js";
+e.src = "../HTML/js/jquery.3.7.0.min.js";
 e.onload = function()
 {
     $(function()
@@ -28,6 +28,10 @@ e.onload = function()
             alertTimeout = setTimeout(function() { notification.fadeOut(500); }, 2000);
         }
 
+        // Some users can't use Alt+<number> to select highlight colors. Setting this localStorage item (to anything) allows them to use Ctrl instead.
+        // There's no option in the UI to enable this, because of how rarely it's necessary.
+        // Note: this change _only_ applies to the highlight color selection; other keybinds like Alt-O and Alt-C remain on Alt.
+        let ctrlSelectsColors = localStorage.getItem('ktane-ctrl-selects-colors') !== null;
 
         // OPTIONS MENU
         let options = $(`<div id="optionsMenu">
@@ -35,7 +39,7 @@ e.onload = function()
             <div class='option-group'>
                 <h3>Highlighter</h3>
                 <div><input type='checkbox' id='highlighter-enabled'>&nbsp;<label for='highlighter-enabled' accesskey='h'>Enabled</label> (Alt-H)</div>
-                <div>Color: <select id='highlighter-color'></select> (Alt-<span id='highlighter-color-index'>1</span>)</div>
+                <div>Color: <select id='highlighter-color'></select> (${ctrlSelectsColors ? 'Ctrl' : 'Alt'}-<span id='highlighter-color-index'>1</span>)</div>
                 <div>Highlights: <button id='clear-highlights' accesskey='c'>Clear</button> (Alt-C)</div>
             </div>
             <div class='option-group'>
@@ -54,16 +58,16 @@ e.onload = function()
         {
             if ($('#dark-mode-enabled').prop('checked'))
             {
-                $("body").addClass("dark");
+                $("body,.darkable").addClass("dark");
                 localStorage.setItem('ktane-dark-mode', true);
             }
             else
             {
-                $("body").removeClass("dark");
+                $("body,.darkable").removeClass("dark");
                 localStorage.setItem('ktane-dark-mode', false);
             }
         }
-        $('#dark-mode-enabled').click(function() { updateDarkMode(); });
+        $('#dark-mode-enabled').click(updateDarkMode);
 
         // PAGE-LAYOUT OPTIONS
         function updateMultipageView()
@@ -128,8 +132,31 @@ e.onload = function()
             }).removeClass("svgIsHighlighted");
         })
 
+        // Takes a keypress event; returns a number 0-9 if a number key was pressed (ignoring modifiers), else null.
+        function extractNumberKey(event) {
+            let n = parseInt(event.key);
+            if (n >= 0 && n <= 9) {
+                return n;
+            }
+            else if (event.keyCode >= 48 && event.keyCode <= 57) {
+                return event.keyCode - 48;
+            }
+            return null;
+        }
+
         $(document).keydown(function(event)
         {
+            let n = extractNumberKey(event);
+
+            // Special case: Ctrl+# instead of Alt+#
+            if(
+                ctrlSelectsColors && n !== null
+                && event.ctrlKey && !event.altKey && !event.shiftKey && !event.metaKey
+            ) {
+                colorSelect.val(n).change();
+                return;
+            }
+
             // Only accept shortcuts with Alt or Ctrl+Shift
             if (!event.altKey && !(event.shiftKey && (event.ctrlKey || event.metaKey)))
                 return;
@@ -150,14 +177,9 @@ e.onload = function()
             {
                 $('#dark-mode-enabled').click();
             }
-            else {
-                let n = parseInt(event.key);
-                if (n >= 0 && n <= 9) {
-                    colorSelect.val(n).change();
-                }
-                else if (event.keyCode >= 48 && event.keyCode <= 57) {
-                    colorSelect.val(event.keyCode - 48).change();
-                }
+            // Alt-#: Select highlight color
+            else if (!ctrlSelectsColors && n !== null) {
+                colorSelect.val(n).change();
             }
         });
 
@@ -305,9 +327,20 @@ e.onload = function()
                 let thisMode = getMode(event);
                 let highlighterEnabled = $('#highlighter-enabled').prop('checked');
 
+                // Allow elements to specify data-mode='element/row/column' to specify
+                // that it should trigger on Alt/Shift/Ctrl respectively
+                let reqMode = element.data('mode');
+
                 if (highlighterEnabled && thisMode !== null)
                 {
                     let svg = element.is("svg *");
+
+                    if (svg && reqMode && reqMode !== thisMode) {
+                        element.hide();
+                        $(document.elementFromPoint(event.clientX, event.clientY)).trigger(event);
+                        element.show();
+                        return false;
+                    }
 
                     if (svg && element.hasClass("svgIsHighlighted")) {
                         if (element.hasClass("stroke-highlightable")) {
@@ -345,7 +378,7 @@ e.onload = function()
                             a = table;
                             b = element;
                         }
-                        else if (thisMode === 'element')
+                        else if (thisMode === (reqMode || 'element'))
                         {
                             a = element;
                             b = element;
