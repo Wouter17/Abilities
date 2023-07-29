@@ -12,6 +12,11 @@ For what abilities to include use this guideline:
 - Do not include abilities where the name change is dependent on time (Quinn's Skystrike, Riven's Wind Slash, Yorick's Awakening, and Swain's Demonflare)
 - The exception to the above rule is where the ability changing is very recognisable and should always be added to this list: (Lee Sin<Q,E>)
 
+To convert the files used by unity to names to be used by the manual you may want to use this command:
+```bash
+ls --quoting-style={escape,shell,c} --ignore="*.meta" -l -m | sed 's/\∕\//g'  | sed 's/\.png//g'
+```
+
 ## Legal
 Abilities was created under Riot Games' ["Legal Jibber Jabber" policy](https://www.riotgames.com/en/legal) using assets owned by Riot Games.  
 Riot Games does not endorse or sponsor this project.
